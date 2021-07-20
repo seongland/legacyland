@@ -25,7 +25,7 @@ const IndexPage = () => {
         <meta property="fb:app_id" content="419108182355029" />
         <meta property="og:site_name" content="Seong-Land" />
         <meta property="og:url" content="https://www.seongland.com/" />
-        <meta property="og:image" content="https://seongland.com/ogtag.png" />
+        <meta property="og:image" content="https://www.seongland.com/ogtag.png" />
         <meta property="og:title" content="Seong-Land" />
         <meta
           property="og:description"
