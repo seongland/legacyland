@@ -34,12 +34,3 @@ jobs:
         with:
           name: make artiface
           path: public
-
-      - name: Authenticate on GCP
-        uses: google-github-actions/setup-gcloud@master
-        with:
-          service_account_email: ${{ secrets.GKE_EMAIL }}
-          service_account_key: ${{ secrets.GKE_KEY }}
-
-      - name: Depoly to Bucket
-        run: gsutil -m cp -r public/* gs://seonglae.com
