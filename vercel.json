@@ -7,6 +7,6 @@
         { key: 'X-XSS-Protection', value: '1' },
         { key: 'X-Content-Type-Options', value: 'nosniff' },
       ],
-    },
+    }
   ]
 }
