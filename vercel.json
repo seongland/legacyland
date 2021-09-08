@@ -1,1 +1,7 @@
-
+{
+  "headers": {
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1",
+    "X-Content-Type-Options": "nosniff"
+  }
+}
