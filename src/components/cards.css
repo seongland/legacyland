@@ -19,7 +19,6 @@
   font-size: 1vw;
 }
 
-
 .card-subtitle.vertical {
   font-size: 3vw;
 }
@@ -39,7 +38,7 @@
 }
 
 .absolute {
-  position: absolute
+  position: absolute;
 }
 
 html,
@@ -50,10 +49,14 @@ body {
   height: 100%;
   width: 100%;
   user-select: none;
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial,
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   position: fixed;
   overflow: hidden;
+}
+
+.card {
+  touch-action: pan-x;
 }
 
 #card {
@@ -64,7 +67,7 @@ body {
   height: 100%;
 }
 
-#card>div {
+#card > div {
   position: absolute;
   width: 100vw;
   height: 100vh;
@@ -74,7 +77,7 @@ body {
   justify-content: center;
 }
 
-#card>div>div {
+#card > div > div {
   box-shadow: 1vw 1vw 2vw 2vw #20202099;
   background-size: auto 85%;
   background-repeat: no-repeat;
@@ -85,15 +88,16 @@ body {
   border-radius: 5vw;
 }
 
-#card>div>div.card {
+#card > div > div.card {
   background-color: rgba(255, 255, 255, 0);
   min-width: 40vw;
   min-height: 25vw;
 }
 
-#card>div>div.iframe {
+#card > div > div.iframe {
   background-color: rgba(255, 255, 255, 1);
   min-width: 70vw;
-  box-shadow: 0 12.5px 40px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3);
+  box-shadow: 0 12.5px 40px -10px rgba(50, 50, 73, 0.4),
+    0 10px 10px -10px rgba(50, 50, 73, 0.3);
   min-height: 60vh;
 }
