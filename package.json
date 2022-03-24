@@ -33,7 +33,7 @@
     "use-sound": "^2.0.1"
   },
   "engines": {
-    "node": "14.*.*"
+    "node": "16.*.*"
   },
   "devDependencies": {
     "@hot-loader/react-dom": "^16.11.0"
