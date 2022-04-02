@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.seongland.com`,
+    siteUrl: `https://legacy.seongland.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet-async`,
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://www.seongland.com",
-        sitemap: "https://www.seongland.com/sitemap.xml",
+        host: "https://legacy.seongland.com",
+        sitemap: "https://legacy.seongland.com/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },

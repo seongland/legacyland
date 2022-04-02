@@ -11,12 +11,6 @@ const IndexPage = () => {
       >
         <meta charSet="utf-8" />
         <title>Seong-Land</title>
-        <link
-          rel="preload prefetch"
-          as="image"
-          type="image/svg+xml"
-          href="https://www.seongland.com/buymeacoffee.svg"
-        />
         <link rel="icon" href="/seongland.svg" />
         <meta
           name="description"
@@ -24,8 +18,8 @@ const IndexPage = () => {
         />
         <meta property="fb:app_id" content="419108182355029" />
         <meta property="og:site_name" content="Seong-Land" />
-        <meta property="og:url" content="https://www.seongland.com/" />
-        <meta property="og:image" content="https://www.seongland.com/ogtag.png" />
+        <meta property="og:url" content="https://legacy.seongland.com/" />
+        <meta property="og:image" content="https://legacy.seongland.com/ogtag.png" />
         <meta property="og:title" content="Seong-Land" />
         <meta
           property="og:description"
