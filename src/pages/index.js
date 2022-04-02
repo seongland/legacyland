@@ -19,7 +19,10 @@ const IndexPage = () => {
         <meta property="fb:app_id" content="419108182355029" />
         <meta property="og:site_name" content="Seong-Land" />
         <meta property="og:url" content="https://legacy.seongland.com/" />
-        <meta property="og:image" content="https://legacy.seongland.com/ogtag.png" />
+        <meta
+          property="og:image"
+          content="https://legacy.seongland.com/ogtag.png"
+        />
         <meta property="og:title" content="Seong-Land" />
         <meta
           property="og:description"
@@ -27,11 +30,6 @@ const IndexPage = () => {
         />
         <meta property="og:locale" content="ko_KR" />
         <meta property="og:type" content="website" />
-        <script
-          defer
-          src="https://static.cloudflareinsights.com/beacon.min.js"
-          data-cf-beacon='{"token": "c8b3924687ca4bdaaf9bd8f31abbd40b"}'
-        />
       </Header>
     </main>
   )
