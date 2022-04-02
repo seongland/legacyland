@@ -3,13 +3,6 @@ module.exports = {
     siteUrl: `https://www.seongland.com`,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-97880882-3",
-        head: true,
-      },
-    },
     `gatsby-plugin-react-helmet-async`,
     {
       resolve: "gatsby-plugin-robots-txt",
@@ -22,7 +15,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: ["G-7GYN10MKSW"],
+        trackingIds: ["G-K07XS3W0ZQ"],
       },
     },
     {
