@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: Other Issue
 description: Other kind of the issue
@@ -10,16 +9,3 @@ body:
       description: Any precise description of the issue
     validations:
       required: true
-=======
----
-name: Other Issue
-description: Other kind of the issue
-body:
-  - type: textarea
-    id: summary
-    attributes:
-      label: Summary
-      description: Any precise description of the issue
-    validations:
-      required: true
->>>>>>> origin/main
